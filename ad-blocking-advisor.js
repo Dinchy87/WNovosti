@@ -1,4 +1,3 @@
-// Creating and reading credit: http://stackoverflow.com/a/1460174/1177153
 function createCookie( name, value, days ) {
 	var expires;
 	if ( days ) {
