@@ -1,4 +1,3 @@
-//Script by Ritesh of www.best2know.info
 var relatedTitles = new Array();
 var relatedTitlesNum = 0;
 var relatedUrls = new Array();
