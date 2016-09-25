@@ -1,0 +1,21 @@
+#disqus_thread { 
+    font: normal 16px segoe ui !important;   
+}
+body{  
+    color: #1a1a1a;
+    font: normal 16px segoe ui;
+    background-color: #f7f7f7;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    align-content: center;
+    max-width: 880px;
+}
+.publisher-anchor-color a {
+    color: rgb(1, 149, 255);
+}
+a {
+    color: #288ce4;
+}
