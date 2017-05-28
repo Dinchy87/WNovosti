@@ -202,7 +202,7 @@ body, .body-fauxcolumn-outer {
 	width: 208px !important
 }
 .content-inner {
-	width: 100% !important;
+	/*width: 100% !important;*/
 	margin:0px !important;
 }
 .column-center-outer {
@@ -214,6 +214,10 @@ body, .body-fauxcolumn-outer {
 .columns.fauxcolumns {
 	padding-right: 0px !important;
 	width: 100% !important;
+}
+.post-body &gt; div, p {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .content-outer {
 	padding: 0px !important;
@@ -346,9 +350,9 @@ body, .body-fauxcolumn-outer {
 	display: none !important
 }
 .post-body {
-	width: 94% !important;
+	/*width: 94% !important;
 	margin-left: 3% !important;
-	margin-right: 3% !important
+	margin-right: 3% !important*/
 }
 a img {
 	max-width: 100% !important;
@@ -358,7 +362,7 @@ a img {
 	width: 100%;
 	clear: both !important
 }
-.post-body a img {
+.a img {
 	display: block
 }
 img {
@@ -1373,6 +1377,23 @@ h3.post-title a:hover {
 	position: relative;
 	font-size: 1.2em;
 }
+.post-body &gt; .separator {
+    margin: 0;
+}
+.post-body &gt; div, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.post-body &gt; h2 {
+    margin-left: 20px;
+}
+/*.post-body p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.post-body .separator {
+    margin: 0px;
+}*/
 .post-header {
 	margin: 0 0 1em;
 	line-height: 1.6;
@@ -2402,6 +2423,9 @@ border: none !important;
 table.tr-caption-container {
 	padding: 4px;
 	margin-bottom: .5em
+}
+.post-body &gt; h2 {
+    margin-left: 20px;
 }
 td.tr-caption {
 	font-size: 80%
