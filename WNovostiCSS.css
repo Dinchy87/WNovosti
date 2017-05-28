@@ -1365,8 +1365,8 @@ h3.post-title a:hover {
 	_background-image: none;
 }
 .post-body {
-	margin-left: 20px;
-	margin-right: 20px;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
 	line-height: 1.4;
