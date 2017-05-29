@@ -123,7 +123,7 @@ a:hover {
     display: inline-block;
     background-position: -11em -6.265em !important;
     display: block;
-    content: &#39;&#39;;
+    content: '';
     }
 }
 /* Media queries
@@ -215,7 +215,7 @@ body, .body-fauxcolumn-outer {
 	padding-right: 0px !important;
 	width: 100% !important;
 }
-.post-body &gt; div, p {
+.post-body > div, p {
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -558,7 +558,7 @@ margin-right:0px !important;
 float: left !important;
 }
 .live-tile-font2 {
-	font: &quot;segoe ui&quot; !important;
+	font: "segoe ui" !important;
 	color: white !important;
 	font-size: 0.7em !important;
 	padding-top: 30px !important;
@@ -568,14 +568,14 @@ float: left !important;
 	background-color: #004a7f;
 }
 .live-tile-font {
-	font: &quot;segoe ui&quot; !important;
+	font: "segoe ui" !important;
 	color: white !important;
 	font-size: 0.7em !important;
 	padding-top: 43px !important;
 	line-height: 85% !important;
 }
 .live-tile-font3 {
-	font: &quot;segoe ui&quot; !important;
+	font: "segoe ui" !important;
 	color: white !important;
 	font-size: 0.7em !important;
 	padding-top: 20px !important;
@@ -627,7 +627,7 @@ height: 148px !important;
     display: block;
     width: 20px;
     height: 2px;
-    content: &#39;&#39;;
+    content: '';
     background-color: #fff;
 }
 .site-nav {
@@ -663,7 +663,7 @@ position: fixed;
     visibility: hidden;
     width: 100%;
     height: 100%;
-    content: &#39;&#39;;
+    content: '';
     background-color: rgba(0,0,0,0.5);
     opacity: 0;
     -webkit-transition: .35s ease;
@@ -683,7 +683,7 @@ position: fixed;
     -ms-user-select: none;
     user-select: none;
 }
-.nav-menu&gt;li {
+.nav-menu > li {
     border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 .main-inner .columns{
@@ -762,7 +762,7 @@ position: fixed;
     background-position: -2em -6em;
 }
 .nav-social-alt:hover .icon:before {
-    content: &#39; &#39;;
+    content: '';
     opacity: 1;
 }
 .nav-social-alt:hover .nav-social-alt-menu {
@@ -795,7 +795,7 @@ position: fixed;
     transform-origin: top;
     pointer-events: none;
 }
-.nav-menu&gt;li .menu, .nav-menu&gt;li .mega-menu {
+.nav-menu >li .menu, .nav-menu>li .mega-menu {
     position: absolute;
     z-index: 11;
     display: block;
@@ -809,7 +809,7 @@ position: fixed;
     -ms-transform-origin: top;
     transform-origin: top;
 }
-.nav-menu&gt;li.nav-item-news&gt;a:before, .nav-menu&gt;li.nav-item-features&gt;a:before, .nav-menu&gt;li.nav-item-more&gt;a:before, .nav-menu&gt;li.nav-item-deals&gt;a:before {
+.nav-menu>li.nav-item-news>a:before, .nav-menu>li.nav-item-features>a:before, .nav-menu>li.nav-item-more>a:before, .nav-menu>li.nav-item-deals>a:before {
     width: 10px;
     height: 6px;
     display: inline-block;
@@ -819,21 +819,21 @@ position: fixed;
     top: 50%;
     right: 12px;
     margin-top: -3px;
-    content: &#39;&#39;;
+    content: '';
     opacity: .35;
     -webkit-transition: .35s ease;
     transition: .35s ease;
 }
-.nav-menu&gt;li:hover&gt;a {
+.nav-menu>li:hover>a {
     color: #fff;
     background-color: rgba(0,0,0,0.15);
 }
-.nav-menu&gt;li&gt;a {
+.nav-menu>li>a {
     padding: 0 12px;
     font-size: 14px;
     line-height: 72px;
 }
-.nav-menu&gt;li .menu&gt;li&gt;a, .nav-menu&gt;li .mega-menu&gt;li&gt;a {
+.nav-menu>li .menu>li>a, .nav-menu>li .mega-menu>li>a {
     position: relative;
     display: block;
     padding: 8px 16px;
@@ -843,11 +843,11 @@ position: fixed;
     color: #666;
     min-width: 140px;
 }
-.nav-menu&gt;li .menu&gt;li&gt;a:hover, .nav-menu&gt;li .mega-menu&gt;li&gt;a:hover {
+.nav-menu>li .menu>li>a:hover, .nav-menu>li .mega-menu>li>a:hover {
     color: #1e5078;
     background-color: #f0f0f0;
 }
-.nav-menu&gt;li:hover .menu {
+.nav-menu>li:hover .menu {
     visibility: visible;
     opacity: 1;
 }
@@ -1377,14 +1377,14 @@ h3.post-title a:hover {
 	position: relative;
 	font-size: 1.2em;
 }
-.post-body &gt; .separator {
+.post-body > .separator {
     margin: 0;
 }
-.post-body &gt; div, p {
+.post-body > div, p {
     margin-left: 20px;
     margin-right: 20px;
 }
-.post-body &gt; h2 {
+.post-body > h2 {
     margin-left: 20px;
 }
 /*.post-body p {
@@ -1487,7 +1487,7 @@ ol {
 /*Reklame
 ------------------------------------------------*/
 .item-title-aplikacija {
-	font-family: &quot;segoe ui&quot;;
+	font-family: "segoe ui";
 	font-size: 1.125em;
 	padding-bottom: 5px;
 }
@@ -1497,7 +1497,7 @@ ol {
 	padding-bottom: 0px !important;
 }
 .item-snippet-aplikacija {
-	font-family: &quot;segoe ui&quot;;
+	font-family: "segoe ui";
 	font-size: 1em;
 	text-align: justify;
 	color: #ffffff;
@@ -1780,21 +1780,21 @@ body.mobile .AdSense {
 }
 @font-face {
 	font-family: segoeuil;
-src: http://bihfotoreporter.com.ba/fonts(&#39;segoeuil.ttf&#39;);
+src: http://bihfotoreporter.com.ba/fonts("segoeuil.ttf");
 }
 p.custom_font {
 	font-family: segoeuil; /* no .ttf */
 }
 @font-face {
 	font-family: segoeuisl;
-src: http://bihfotoreporter.com.ba/fonts(&#39;segoeuisl.ttf&#39;);
+src: http://bihfotoreporter.com.ba/fonts("segoeuisl.ttf");
 }
 p.custom_font {
 	font-family: segoeuisl; /* no .ttf */
 }
 @font-face {
 	font-family: segoeui;
-src: http://bihfotoreporter.com.ba/fonts(&#39;segoeui.ttf&#39;);
+src: http://bihfotoreporter.com.ba/fonts("segoeui.ttf");
 }
 p.custom_font {
 	font-family: segoeui; /* no .ttf */
@@ -1843,7 +1843,7 @@ blockquote {
 	background-attachment: scroll;
 	background-clip: border-box;
 	background-color: transparent;
-	background-image: url(&quot;http://3.bp.blogspot.com/-Ljx1_chK0TU/T6gaFvCzRMI/AAAAAAAAAxk/M8W5ADwIaaY/s1600/blockquote+2.png&quot;);
+	background-image: url("http://3.bp.blogspot.com/-Ljx1_chK0TU/T6gaFvCzRMI/AAAAAAAAAxk/M8W5ADwIaaY/s1600/blockquote+2.png");
 	background-origin: padding-box;
 	background-position: 0 0;
 	background-repeat: repeat-y;
@@ -2394,10 +2394,10 @@ iframe.avatar-hovercard-iframe {
 	width: 7px
 }
 .comments .thread-expanded .thread-arrow {
-	background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAG0lEQVR42mNgwAfKy8v/48I4FeA0AacVDFQBAP9wJkE/KhUMAAAAAElFTkSuQmCC&quot;) no-repeat scroll 0 0 transparent
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAG0lEQVR42mNgwAfKy8v/48I4FeA0AacVDFQBAP9wJkE/KhUMAAAAAElFTkSuQmCC") no-repeat scroll 0 0 transparent
 }
 .comments .thread-collapsed .thread-arrow {
-	background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAJUlEQVR42mNgAILy8vL/DLgASBKnApgkVgXIkhgKiNKJ005s4gDLbCZBiSxfygAAAABJRU5ErkJggg==&quot;) no-repeat scroll 0 0 transparent
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAJUlEQVR42mNgAILy8vL/DLgASBKnApgkVgXIkhgKiNKJ005s4gDLbCZBiSxfygAAAABJRU5ErkJggg==") no-repeat scroll 0 0 transparent
 }
 .comments .avatar-image-container {
 	float: left;
@@ -2424,7 +2424,7 @@ table.tr-caption-container {
 	padding: 4px;
 	margin-bottom: .5em
 }
-.post-body &gt; h2 {
+.post-body > h2 {
     margin-left: 20px;
 }
 td.tr-caption {
@@ -2469,7 +2469,7 @@ td.tr-caption {
 	margin-top: 3px
 }
 .delete-comment-icon {
-	background: url(&quot;/img/icon_delete13.gif&quot;) no-repeat left;
+	background: url("/img/icon_delete13.gif") no-repeat left;
 	padding: 7px
 }
 #comment-popup {
@@ -3048,7 +3048,7 @@ img.gsc-branding-img-noclear {
 	color: #fff
 }
 .Stats .digit {
-	background: url(&quot;/img/widgets/stats-flipper.png&quot;) no-repeat left !important;
+	background: url("/img/widgets/stats-flipper.png") no-repeat left !important;
 	border: 1px solid #fff;
 	display: inline-block;
 	height: 28px;
@@ -3117,7 +3117,7 @@ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&#39;http://www.bl
 	padding: 4px 0 1px;
 	width: 144px
 }
-html&gt;body div.subscribe div.top {
+html>body div.subscribe div.top {
 	background: url(//www.blogger.com/img/widgets/s_top.png) top left no-repeat
 }
 span.inner {
@@ -3142,7 +3142,7 @@ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&#39;http://www.bl
 	top: 0;
 	z-index: 20
 }
-html&gt;body div.subscribe div.bottom {
+html>body div.subscribe div.bottom {
 	background: url(//www.blogger.com/img/widgets/s_bottom.png) bottom left no-repeat;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -3346,16 +3346,16 @@ h3 a:hover {
 .post-header, .post-footer {
 	line-height: 1.6
 }
-.post-footer-line&gt;* {
+.post-footer-line>* {
 	margin-right: 1em
 }
-.post-footer-line&gt;*:last-child {
+.post-footer-line>*:last-child {
 	margin-right: 0
 }
 .post-timestamp {
 	margin-left: -1em
 }
-.post-footer-line&gt;*:first-child {
+.post-footer-line>*:first-child {
 	margin-left: 0
 }
 .post .tr-caption-container {
@@ -3615,7 +3615,7 @@ time, mark {
 	background: url(//www.blogger.com/img/triangle_ltr.gif) no-repeat left center
 }
 .expanded-backlink .backlink-toggle-zippy {
-	background-image: url(&quot;//www.blogger.com/img/triangle_open.gif&quot;)
+	background-image: url("//www.blogger.com/img/triangle_open.gif")
 }
 .collapsed-backlink .collapseable {
 	display: none
@@ -4570,7 +4570,7 @@ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&#39;http://www.bl
 	padding: 4px 0 1px;
 	width: 144px
 }
-html&gt;body div.subscribe div.top {
+html>body div.subscribe div.top {
 	background: url(//www.blogger.com/img/widgets/s_top.png) top left no-repeat
 }
 span.inner {
@@ -4595,7 +4595,7 @@ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&#39;http://www.bl
 	top: 0;
 	z-index: 20
 }
-html&gt;body div.subscribe div.bottom {
+html>body div.subscribe div.bottom {
 	background: url(//www.blogger.com/img/widgets/s_bottom.png) bottom left no-repeat;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -4800,16 +4800,16 @@ h3 a:hover {
 .post-header, .post-footer {
 	line-height: 1.6
 }
-.post-footer-line&gt;* {
+.post-footer-line>* {
 	margin-right: 1em
 }
-.post-footer-line&gt;*:last-child {
+.post-footer-line>*:last-child {
 	margin-right: 0
 }
 .post-timestamp {
 	margin-left: -1em
 }
-.post-footer-line&gt;*:first-child {
+.post-footer-line>*:first-child {
 	margin-left: 0
 }
 .post .tr-caption-container {
