@@ -715,6 +715,10 @@ position: fixed;
 
 @media (min-width: 996px)
 {
+	blockquote > p {
+		margin-left: 0;
+		margin-right:0;
+}
 	.post-body > p {
     margin-left: 20px;
     margin-right: 20px;
