@@ -715,6 +715,10 @@ position: fixed;
 
 @media (min-width: 996px)
 {
+	.post-body > p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
     h1.site-logo {
     padding-left: 0px;
 }
@@ -770,7 +774,7 @@ position: fixed;
     opacity: 1;
     pointer-events: all;
 }
-.nav-social-alt .nav-social-alt-toggle&gt;a {
+.nav-social-alt .nav-social-alt-toggle>a {
     pointer-events: none;
 }
 .nav-social-alt .nav-social-alt-menu {
