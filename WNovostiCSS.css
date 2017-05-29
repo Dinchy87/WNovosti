@@ -28,7 +28,7 @@ header h3.entry-title {
     display: inline-block;
     background-position: -11em -8em;
     display: block;
-    content: &#39;&#39;; 
+    content: ''; 
 }
 
 body, .body-fauxcolumn-outer {
