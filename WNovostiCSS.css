@@ -18,7 +18,7 @@ header h3.entry-title {
 .jump-link a:before, .nav-social-alt .icon:before, .site-logo a:before{ 
     font-size: 40px;
     background-color: transparent;
-    background-image: none,url(&quot;https://3.bp.blogspot.com/-fT0ZR3nwJAY/V53CVb7vl1I/AAAAAAAAZ8Y/doPI3KPaK6sdotI2FJGzch8Rq2-PIO1mgCLcB/s1600/sprite_1x.png&quot;);
+    background-image: none,url("https://3.bp.blogspot.com/-fT0ZR3nwJAY/V53CVb7vl1I/AAAAAAAAZ8Y/doPI3KPaK6sdotI2FJGzch8Rq2-PIO1mgCLcB/s1600/sprite_1x.png");
     background-size: 880px 360px;
     background-repeat: no-repeat;  
 }
