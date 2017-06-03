@@ -1044,11 +1044,11 @@ height: 100% !important
 .post-labels {
 	display: none !important
 }
-.post-body {
+/*.post-body {
 	width: 98% !important;
 	margin-left: 1% !important;
 	margin-right: 1% !important
-}
+}*/
 a img {
 	max-width: 100% !important;
 	height: auto !important;
@@ -1090,7 +1090,7 @@ table {
 }
 tr {
 	width: 100% !important;
-	height: auto !important
+	height: auto !important;
 }
 td {
 	width: 100%;
@@ -1098,7 +1098,7 @@ td {
 }
 .reactions-label-cell {
 	margin-left: 0px !important;
-	margin-right: 0px !important
+	margin-right: 0px !important;
 }
 blockquote {
     margin-left: 3% !important;
